@@ -1,0 +1,140 @@
+.menu {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    opacity: 0.9;
+}
+
+.menu a:hover {
+    opacity: 1;
+}
+
+.background {
+    background-image: url("../img/glen-noble-18012-unsplash.jpg");
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 550px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#background-img {
+    position: relative;
+}
+
+#background-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Adjust the color values to achieve desired darkness */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+}
+
+select {
+    display: none;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.2rem 2rem;
+    opacity: 0.8;
+    margin-top: 4rem;
+}
+
+
+.background h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.3rem;
+    margin-bottom: 2.3rem;
+}
+
+.background h5 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+@media (min-width:768px) {
+    .background h1 {
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 2.3rem;
+    }
+
+    .background h5 {
+        color: white;
+        font-weight: 300;
+        font-size: 1.7rem;
+        text-align: center;
+
+    }
+}
+
+@media (min-width:1024px) {
+    .background h1 {
+        color: white;
+        text-align: center;
+        font-size: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .background h5 {
+        color: white;
+        font-weight: 500;
+        font-size: 2.3rem;
+        text-align: center;
+
+    }
+}
+
+
+
+/*
+.header ul {
+    margin: 5;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+
+}
+
+.header ul li {
+    margin-left: 20px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+label {
+    font-size: 20px;
+    font-style: normal;
+    display: inline-block;
+    margin: 15px;
+}
+
+
+*/
